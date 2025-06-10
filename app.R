@@ -1,8 +1,9 @@
 library(shiny)
 
 # carregando modelo
-modelo <- lm(NUMDEFECTS ~ sumLOC_TOTAL, data = readxl::read_excel("dataset_KC1_classlevel_numdefect.xlsx"))
+modelo <- readRDS("modelo_predict_defects.rds")
 
+# interface
 ui <- fluidPage(
   titlePanel("Previsão de Defeitos por linhas de código - LOC"),
   sidebarLayout(
@@ -16,6 +17,7 @@ ui <- fluidPage(
   )
 )
 
+# server
 server <- function(input, output) {
   observeEvent(input$prever, {
     pred <- predict(modelo, newdata = data.frame(sumLOC_TOTAL = input$loc))

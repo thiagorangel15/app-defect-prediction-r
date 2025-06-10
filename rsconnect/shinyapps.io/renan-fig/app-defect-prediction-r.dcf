@@ -1,0 +1,13 @@
+name: app-defect-prediction-r
+title: app-defect-prediction-r
+username: renan-fig
+account: renan-fig
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14908594
+bundleId: 10426814
+url: https://renan-fig.shinyapps.io/app-defect-prediction-r/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: analise.R|dataset_KC1_classlevel_numdefect.xlsx|plumber.R|README.md|train_model.R
