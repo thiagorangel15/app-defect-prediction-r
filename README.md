@@ -5,7 +5,7 @@ Este repositório contém um projeto completo de análise estatística, modelage
 
 ---
 
-## 🧠 Objetivo
+## Objetivo
 
 Desenvolver um app para explorar e analisar estatisticamente métricas de classes de um sistema orientado a objetos, prever a quantidade de defeitos (`NUMDEFECTS`) com um modelo de regressão linear e disponibilizar a solução em uma **API REST com Plumber** e uma **aplicação Shiny interativa**, publicada no [shinyapps.io](https://www.shinyapps.io).
 
@@ -51,7 +51,7 @@ Desenvolver um app para explorar e analisar estatisticamente métricas de classe
 
 ---
 
-## ▶️ Como Executar Localmente
+## Como Executar Localmente
 
 ### 🔹 Requisitos
 
@@ -81,12 +81,10 @@ runApp("app.R")
 
 ---
 
-## 🌍 Aplicação Online
+## 🌍 App Online
 
-A aplicação está publicada em:  
-🔗 [https://seu-usuario.shinyapps.io/defeitos-software](https://seu-usuario.shinyapps.io/defeitos-software)
-
-> (Substitua pelo link real após publicar)
+Publicado em:  
+🔗 [https://renan-fig.shinyapps.io/app-defect-prediction-r/](https://renan-fig.shinyapps.io/app-defect-prediction-r/)
 
 ---
 
